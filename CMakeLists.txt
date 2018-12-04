@@ -11,7 +11,7 @@ include_directories(/usr/local/lib /usr/local/cuda/include)
 link_directories(/usr/local/cuda/lib64)
 
 ## Add Target Executables
-add_executable(KernelProfiler main.cpp)
+add_executable(KernelProfiler main.cpp convolution.cpp)
 
 ## Link Libraries to Executables
 target_link_libraries(KernelProfiler OpenCL)

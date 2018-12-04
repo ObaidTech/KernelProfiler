@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/KernelProfiler.dir/main.cpp.o"
+  "CMakeFiles/KernelProfiler.dir/convolution.cpp.o"
   "KernelProfiler.pdb"
   "KernelProfiler"
 )

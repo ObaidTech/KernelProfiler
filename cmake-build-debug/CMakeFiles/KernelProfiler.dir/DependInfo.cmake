@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/obninja/ClionProjects/KernelProfiler/convolution.cpp" "/home/obninja/ClionProjects/KernelProfiler/cmake-build-debug/CMakeFiles/KernelProfiler.dir/convolution.cpp.o"
   "/home/obninja/ClionProjects/KernelProfiler/main.cpp" "/home/obninja/ClionProjects/KernelProfiler/cmake-build-debug/CMakeFiles/KernelProfiler.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

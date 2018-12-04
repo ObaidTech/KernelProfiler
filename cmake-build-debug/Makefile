@@ -123,6 +123,33 @@ KernelProfiler/fast:
 	$(MAKE) -f CMakeFiles/KernelProfiler.dir/build.make CMakeFiles/KernelProfiler.dir/build
 .PHONY : KernelProfiler/fast
 
+convolution.o: convolution.cpp.o
+
+.PHONY : convolution.o
+
+# target to build an object file
+convolution.cpp.o:
+	$(MAKE) -f CMakeFiles/KernelProfiler.dir/build.make CMakeFiles/KernelProfiler.dir/convolution.cpp.o
+.PHONY : convolution.cpp.o
+
+convolution.i: convolution.cpp.i
+
+.PHONY : convolution.i
+
+# target to preprocess a source file
+convolution.cpp.i:
+	$(MAKE) -f CMakeFiles/KernelProfiler.dir/build.make CMakeFiles/KernelProfiler.dir/convolution.cpp.i
+.PHONY : convolution.cpp.i
+
+convolution.s: convolution.cpp.s
+
+.PHONY : convolution.s
+
+# target to generate assembly for a file
+convolution.cpp.s:
+	$(MAKE) -f CMakeFiles/KernelProfiler.dir/build.make CMakeFiles/KernelProfiler.dir/convolution.cpp.s
+.PHONY : convolution.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... KernelProfiler"
+	@echo "... convolution.o"
+	@echo "... convolution.i"
+	@echo "... convolution.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

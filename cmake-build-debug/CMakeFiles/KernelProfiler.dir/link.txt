@@ -1,1 +1,1 @@
-/etc/alternatives/c++  -g   CMakeFiles/KernelProfiler.dir/main.cpp.o  -o KernelProfiler  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 -lOpenCL 
+/etc/alternatives/c++  -g   CMakeFiles/KernelProfiler.dir/main.cpp.o CMakeFiles/KernelProfiler.dir/convolution.cpp.o  -o KernelProfiler  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 -lOpenCL 

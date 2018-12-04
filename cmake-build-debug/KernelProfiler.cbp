@@ -88,6 +88,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/obninja/ClionProjects/KernelProfiler/convolution.cpp">
+			<Option target="KernelProfiler"/>
+		</Unit>
 		<Unit filename="/home/obninja/ClionProjects/KernelProfiler/main.cpp">
 			<Option target="KernelProfiler"/>
 		</Unit>
